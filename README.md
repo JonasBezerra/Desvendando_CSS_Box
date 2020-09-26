@@ -4,9 +4,9 @@
 - Os elementos HTML são enxergados como caixas.
 - Retangulares
 
-E composto de 4 partes, que definem  um limite para o conteúdo **(content)**
+É composto de 4 partes, que definem  um limite para o conteúdo **(content)**
 
-1. Margin
-2. Border
-3. Padding
+1. Margin (top | right | bottom | left)
+2. Border (top | right | bottom | left, style, width, color)
+3. Padding (top | right | bottom | left)
 4. Content (test, imagem, video)

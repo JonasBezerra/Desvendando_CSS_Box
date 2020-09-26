@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /*Se ficar com a rolagem é por quer faltou tirar o margin padrão que o navegador coloca*/
+
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+div{
+
+    background: red;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+
+    /*Content: width & height*/
+    width: 500px;
+    height: 500px;
+
+    
+    
+    /*Padding: Preenchimento*/
+    padding: 100px;
+    
+    /*Border: borda*/
+    border: 5px dotted rgb(98, 0, 255);
+
+    /*
+        Aplicando bordas apenas de um lado da caixa
+    border-top: 3px dotted green;
+    */
+
+    /*Margin: margen*/
+
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+    /*Mudar limites da caixa*/
+    box-sizing: border-box;
+}
+
+section {
+     background: yellowgreen;
+     width: 500px;
+     height: 200px;
+
+     /*Vamos centralizar a caixa usando a estrategia do margin*/
+     margin: 0 auto;
+     margin-top: 70px;
+     /*Ele não vai somar a margin-bottom da primeira div com a margin-top da section. Ele apenas fica com o maior valor. Isso se chama de MARGIN COLLAPSE
+    */
+
+     
+}
+
